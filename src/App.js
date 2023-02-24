@@ -10,6 +10,7 @@ const todoNameRef = useRef();
 const handleAddTodo = () => {
 //タスクを追加する
 const name = todoNameRef.current.value;
+if(name ==="") return;//空欄だった時の対処
 setTodos((prevTodos) => {
   return [...prevTodos,{id: uuidv4(), name, completed: false}];
 });
@@ -37,6 +38,6 @@ setTodos(newTodos);
     </div>
   );
   };
-// 動画38:28
+
 
 export default App;
