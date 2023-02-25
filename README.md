@@ -1,3 +1,9 @@
+# React Todo app
+
+React入門　youtube講座 Todoアプリ
+(https://www.youtube.com/watch?v=nRCNL9T3J98)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
